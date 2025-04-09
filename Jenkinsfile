@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         GITHUB_URL = 'https://github.com/Samals-sha/metallb-deploy_S.git'  // <---- Change this to match your cloned repository
-        KUBECONFIG = credentials('cit-samals')   // <---- Change this to match your kubernetes cluster credentials
+        KUBECONFIG = credentials('cit-samals-225')   // <---- Change this to match your kubernetes cluster credentials
     }
 
     stages {
